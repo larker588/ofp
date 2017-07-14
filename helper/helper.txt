@@ -1,0 +1,4 @@
+1.修改redis默认密码，记事本打开C:\Program Files\Redis\redis.windows-service.conf，去掉requirepass前面的#,并修改后面的指（密码）
+重启服务即可
+2.webside部署：http://git.oschina.net/wjggwm/webside/wikis/deploy
+重点看ssl配置及druid(都是一次性的配置)
